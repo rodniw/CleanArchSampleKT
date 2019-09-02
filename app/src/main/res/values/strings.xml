@@ -3,9 +3,9 @@
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="title_activity_main">Majestic reader</string>
-    <string name="nav_header_title">Majestic Reader</string>
-    <string name="nav_header_subtitle">The best reader in town</string>
+    <string name="title_activity_main">PDF Reader</string>
+    <string name="nav_header_title">PDF Reader</string>
+    <string name="nav_header_subtitle">Enjoy the literature</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
