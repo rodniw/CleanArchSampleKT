@@ -9,7 +9,7 @@ class DocumentRepository(
     /* for document data source*/
     suspend fun addDocument(document: Document) = documentDataSource.add(document)
 
-    suspend fun readAll() = documentDataSource.readAll() //return List<Document>
+    suspend fun getDocuments() = documentDataSource.readAll() //return List<Document>
 
     suspend fun removeDocument(document: Document) = documentDataSource.remove(document)
 
