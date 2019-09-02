@@ -5,7 +5,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import dev.rodni.ru.cleanarchsamplekt.Bookmark
+import dev.rodni.ru.cleanarchsamplekt.domain.Bookmark
 import dev.rodni.ru.cleanarchsamplekt.R
 import kotlinx.android.synthetic.main.item_bookmark.view.*
 

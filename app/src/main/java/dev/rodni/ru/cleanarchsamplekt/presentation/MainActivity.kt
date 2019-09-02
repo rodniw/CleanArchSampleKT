@@ -8,7 +8,7 @@ import androidx.drawerlayout.widget.DrawerLayout
 import com.google.android.material.navigation.NavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
-import dev.rodni.ru.cleanarchsamplekt.Document
+import dev.rodni.ru.cleanarchsamplekt.domain.Document
 import dev.rodni.ru.cleanarchsamplekt.R
 import dev.rodni.ru.cleanarchsamplekt.presentation.library.LibraryFragment
 import kotlinx.android.synthetic.main.activity_main.*

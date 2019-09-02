@@ -3,7 +3,7 @@ package dev.rodni.ru.cleanarchsamplekt.presentation.library
 import android.app.Application
 import android.net.Uri
 import androidx.lifecycle.MutableLiveData
-import dev.rodni.ru.cleanarchsamplekt.Document
+import dev.rodni.ru.cleanarchsamplekt.domain.Document
 import dev.rodni.ru.cleanarchsamplekt.framework.Interactors
 import dev.rodni.ru.cleanarchsamplekt.framework.MajesticViewModel
 

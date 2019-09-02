@@ -4,14 +4,13 @@ import android.app.Application
 import android.graphics.pdf.PdfRenderer
 import android.net.Uri
 import android.os.Bundle
-import android.util.Log
 import androidx.core.os.bundleOf
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MediatorLiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Transformations
-import dev.rodni.ru.cleanarchsamplekt.Bookmark
-import dev.rodni.ru.cleanarchsamplekt.Document
+import dev.rodni.ru.cleanarchsamplekt.domain.Bookmark
+import dev.rodni.ru.cleanarchsamplekt.domain.Document
 import dev.rodni.ru.cleanarchsamplekt.framework.Interactors
 import dev.rodni.ru.cleanarchsamplekt.framework.MajesticViewModel
 import java.io.IOException

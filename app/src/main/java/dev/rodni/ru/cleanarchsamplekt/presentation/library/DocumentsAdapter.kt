@@ -7,7 +7,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.RequestManager
-import dev.rodni.ru.cleanarchsamplekt.Document
+import dev.rodni.ru.cleanarchsamplekt.domain.Document
 import dev.rodni.ru.cleanarchsamplekt.R
 import dev.rodni.ru.cleanarchsamplekt.framework.GlideApp
 import dev.rodni.ru.cleanarchsamplekt.presentation.StringUtil

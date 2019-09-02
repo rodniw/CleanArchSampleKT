@@ -1,6 +1,6 @@
 package dev.rodni.ru.cleanarchsamplekt.presentation
 
-import dev.rodni.ru.cleanarchsamplekt.Document
+import dev.rodni.ru.cleanarchsamplekt.domain.Document
 
 interface MainActivityDelegate {
 

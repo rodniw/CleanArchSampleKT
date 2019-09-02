@@ -1,4 +1,4 @@
-package dev.rodni.ru.cleanarchsamplekt
+package dev.rodni.ru.cleanarchsamplekt.domain
 
 import java.io.Serializable
 
