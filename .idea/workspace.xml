@@ -10,26 +10,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03bcea30-d0ba-4173-b347-f31b5e7be648" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__kotlinx_coroutines_android_1_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__kotlinx_coroutines_core_1_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/core.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/data/PlaceHolder.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/domain/PlaceHolder.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/interactors/PlaceHolder.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/data/BookmarkDataSource.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/data/BookmarkRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/data/DocumentDataSource.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/data/DocumentRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/data/OpenDocumentDataSource.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/dev/rodni/ru/cleanarchsamplekt/framework/MajesticReaderApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/dev/rodni/ru/cleanarchsamplekt/framework/MajesticReaderApplication.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/data/PlaceHolder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/data/PlaceHolder.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,10 +62,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/data/PlaceHolder.kt">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/data/BookmarkRepository.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="170">
+              <caret line="10" column="75" lean-forward="true" selection-start-line="10" selection-start-column="75" selection-end-line="10" selection-end-column="75" />
+              <folding>
+                <element signature="e#45#152#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/data/DocumentRepository.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/data/DocumentDataSource.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -86,13 +94,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/domain/PlaceHolder.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="51">
+              <caret line="3" column="65" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="65" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/interactors/PlaceHolder.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
@@ -119,13 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_arrow_up.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_bookmark.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_library.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_previous_page.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_library_border.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_next_page.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_reader.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/preview_background.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/preview_missing.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/side_nav_bar.xml" />
@@ -170,6 +171,13 @@
         <option value="$PROJECT_DIR$/app/src/main/java/dev/rodni/ru/cleanarchsamplekt/framework/MajesticReaderApplication.kt" />
         <option value="$PROJECT_DIR$/core/build.gradle" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/domain/PlaceHolder.kt" />
+        <option value="$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/data/PlaceHolder.kt" />
+        <option value="$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/data/BookmarkDataSource.kt" />
+        <option value="$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/data/DocumentDataSource.kt" />
+        <option value="$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/data/OpenDocumentDataSource.kt" />
+        <option value="$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/data/BookmarkRepository.kt" />
+        <option value="$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/data/DocumentRepository.kt" />
       </list>
     </option>
   </component>
@@ -267,6 +275,36 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cleanarchsamplekt" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CleanArchSampleKT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CleanArchSampleKT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cleanarchsamplekt" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CleanArchSampleKT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CleanArchSampleKT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cleanarchsamplekt" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CleanArchSampleKT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CleanArchSampleKT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cleanarchsamplekt" type="462c0819:PsiDirectoryNode" />
+              <item name="interactors" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -285,6 +323,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="dev.rodni.ru.cleanarchsamplekt.domain" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\rodio_000\AndroidStudioProjects\CleanArchSampleKT\app\src\main\java\dev\rodni\ru\cleanarchsamplekt" />
       <recent name="C:\Users\rodio_000\AndroidStudioProjects\CleanArchSampleKT\app\src\main\res\drawable" />
@@ -405,11 +446,19 @@
       <option name="project" value="LOCAL" />
       <updated>1567435228280</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="creating data, domain and interactors packages under the new CORE module which will handle the app's logic.">
+      <created>1567436510048</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1567436510048</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" />
       <window_info id="Image Layers" order="1" />
@@ -445,48 +494,10 @@
     <MESSAGE value="main skeleton." />
     <MESSAGE value="main skeleton. before cl arch implementation." />
     <MESSAGE value="forgot to register application class inside the manifest." />
-    <option name="LAST_COMMIT_MESSAGE" value="forgot to register application class inside the manifest." />
+    <MESSAGE value="creating data, domain and interactors packages under the new CORE module which will handle the app's logic." />
+    <option name="LAST_COMMIT_MESSAGE" value="creating data, domain and interactors packages under the new CORE module which will handle the app's logic." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/dev/rodni/ru/cleanarchsamplekt/SplashActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_library.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_bookmark.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_document.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
@@ -548,7 +559,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/dev/rodni/ru/cleanarchsamplekt/Document.kt">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/domain/Document.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
@@ -800,7 +811,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/dev/rodni/ru/cleanarchsamplekt/Bookmark.kt">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/domain/Bookmark.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="21" selection-start-column="21" selection-end-column="38" />
@@ -829,7 +840,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/data/PlaceHolder.kt">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/interactors/PlaceHolder.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
@@ -838,15 +849,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/domain/PlaceHolder.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="51">
+          <caret line="3" column="65" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/interactors/PlaceHolder.kt">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/data/OpenDocumentDataSource.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="68">
+          <caret line="4" column="93" selection-start-line="4" selection-start-column="93" selection-end-line="4" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/data/PlaceHolder.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/data/BookmarkRepository.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="75" lean-forward="true" selection-start-line="10" selection-start-column="75" selection-end-line="10" selection-end-column="75" />
+          <folding>
+            <element signature="e#45#152#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/data/BookmarkDataSource.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <folding>
+            <element signature="e#45#152#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/data/DocumentDataSource.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/data/DocumentRepository.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
