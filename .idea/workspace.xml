@@ -10,13 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03bcea30-d0ba-4173-b347-f31b5e7be648" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/interactors/AddBookmark.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/interactors/AddDocument.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/interactors/GetBookmarks.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/interactors/GetDocuments.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/interactors/GetOpenDocument.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/interactors/RemoveBookmark.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/interactors/RemoveDocument.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/interactors/SetOpenDocument.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/data/DocumentRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/data/DocumentRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/interactors/PlaceHolder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/interactors/PlaceHolder.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,28 +62,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/data/DocumentRepository.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="55" lean-forward="true" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+            <state relative-caret-position="68">
+              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/interactors/GetDocuments.kt">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/data/BookmarkRepository.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/interactors/GetBookmarks.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            <state relative-caret-position="102">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
               <folding>
-                <element signature="e#52#167#0" expanded="true" />
+                <element signature="e#45#152#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,10 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_library.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/item_bookmark.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/item_document.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/nav_header_main.xml" />
@@ -158,8 +143,12 @@
         <option value="$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/interactors/AddBookmark.kt" />
         <option value="$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/interactors/AddDocument.kt" />
         <option value="$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/interactors/GetBookmarks.kt" />
-        <option value="$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/interactors/GetDocuments.kt" />
         <option value="$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/data/DocumentRepository.kt" />
+        <option value="$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/interactors/GetDocuments.kt" />
+        <option value="$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/interactors/GetOpenDocument.kt" />
+        <option value="$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/interactors/RemoveBookmark.kt" />
+        <option value="$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/interactors/RemoveDocument.kt" />
+        <option value="$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/interactors/SetOpenDocument.kt" />
       </list>
     </option>
   </component>
@@ -449,7 +438,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567437692591</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="start writing use cases.">
+      <created>1567439928540</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1567439928540</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -493,38 +489,10 @@
     <MESSAGE value="creating data, domain and interactors packages under the new CORE module which will handle the app's logic." />
     <MESSAGE value="simple data sources and repositories inside data layer." />
     <MESSAGE value="changed document repository. included interaction with open document data source there." />
-    <option name="LAST_COMMIT_MESSAGE" value="changed document repository. included interaction with open document data source there." />
+    <MESSAGE value="start writing use cases." />
+    <option name="LAST_COMMIT_MESSAGE" value="start writing use cases." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/drawables.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/dev/rodni/ru/cleanarchsamplekt/MainActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -792,16 +760,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/data/BookmarkRepository.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="75" selection-start-line="10" selection-start-column="75" selection-end-line="10" selection-end-column="75" />
-          <folding>
-            <element signature="e#45#152#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/domain/Document.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -830,16 +788,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/interactors/AddBookmark.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="62" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
-          <folding>
-            <element signature="e#52#221#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/interactors/AddDocument.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -851,16 +799,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="60" lean-forward="true" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
-          <folding>
-            <element signature="e#52#167#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/interactors/GetBookmarks.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding>
             <element signature="e#52#167#0" expanded="true" />
           </folding>
@@ -891,17 +829,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/data/DocumentRepository.kt">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/interactors/GetOpenDocument.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="55" lean-forward="true" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/interactors/GetDocuments.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/interactors/GetBookmarks.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding>
+            <element signature="e#52#167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/interactors/RemoveBookmark.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <element signature="e#52#221#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/interactors/RemoveDocument.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="53" lean-forward="true" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
+          <folding>
+            <element signature="e#52#167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/interactors/AddBookmark.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="62" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
+          <folding>
+            <element signature="e#52#221#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/data/DocumentRepository.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/interactors/SetOpenDocument.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding>
+            <element signature="e#52#167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/dev/rodni/ru/cleanarchsamplekt/data/BookmarkRepository.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding>
+            <element signature="e#45#152#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
