@@ -1,17 +1,36 @@
 package dev.rodni.ru.cleanarchsamplekt.framework
 
 import android.app.Application
+import dev.rodni.ru.cleanarchsamplekt.data.*
+import dev.rodni.ru.cleanarchsamplekt.interactors.*
+
 
 class ReaderAppApplication : Application() {
 
-  override fun onCreate() {
-    super.onCreate()
+    override fun onCreate() {
+        super.onCreate()
 
-    ReaderAppViewModelFactory.inject(
-        this,
-        Interactors()
-    )
-  }
+        val bookmarkRepository = BookmarkRepository(RoomBookmarkDataSource(this))
+        val documentRepository = DocumentRepository(
+            RoomDocumentDataSource(this),
+            InMemoryOpenDocumentDataSource()
+        )
+
+        ReaderAppViewModelFactory.inject(
+            this,
+            Interactors(
+                AddBookmark(bookmarkRepository),
+                GetBookmarks(bookmarkRepository),
+                RemoveBookmark(bookmarkRepository),
+                AddDocument(documentRepository),
+                GetDocuments(documentRepository),
+                RemoveDocument(documentRepository),
+                GetOpenDocument(documentRepository),
+                SetOpenDocument(documentRepository)
+            )
+        )
+    }
+
 }
 
 //notes from the internet. just to remember the rules
