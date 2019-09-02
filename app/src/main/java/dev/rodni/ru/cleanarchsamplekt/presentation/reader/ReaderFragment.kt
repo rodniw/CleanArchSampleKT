@@ -13,7 +13,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import dev.rodni.ru.cleanarchsamplekt.domain.Document
 import dev.rodni.ru.cleanarchsamplekt.R
-import dev.rodni.ru.cleanarchsamplekt.framework.MajesticViewModelFactory
+import dev.rodni.ru.cleanarchsamplekt.framework.ReaderAppViewModelFactory
 import dev.rodni.ru.cleanarchsamplekt.presentation.library.LibraryFragment
 import dev.rodni.ru.cleanarchsamplekt.presentation.reader.BookmarksAdapter
 import dev.rodni.ru.cleanarchsamplekt.presentation.reader.ReaderViewModel
@@ -42,7 +42,7 @@ class ReaderFragment : Fragment() {
     }
     bookmarksRecyclerView.adapter = adapter
 
-    viewModel = ViewModelProviders.of(this, MajesticViewModelFactory)
+    viewModel = ViewModelProviders.of(this, ReaderAppViewModelFactory)
         .get(ReaderViewModel::class.java)
 
     viewModel.document.observe(this, Observer {

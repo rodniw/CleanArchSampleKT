@@ -12,10 +12,10 @@ import androidx.lifecycle.Transformations
 import dev.rodni.ru.cleanarchsamplekt.domain.Bookmark
 import dev.rodni.ru.cleanarchsamplekt.domain.Document
 import dev.rodni.ru.cleanarchsamplekt.framework.Interactors
-import dev.rodni.ru.cleanarchsamplekt.framework.MajesticViewModel
+import dev.rodni.ru.cleanarchsamplekt.framework.ReaderAppViewModel
 import java.io.IOException
 
-class ReaderViewModel(application: Application, interactors: Interactors) : MajesticViewModel
+class ReaderViewModel(application: Application, interactors: Interactors) : ReaderAppViewModel
 (application, interactors) {
 
   companion object {
@@ -63,7 +63,7 @@ class ReaderViewModel(application: Application, interactors: Interactors) : Maje
     }
   }
 
-  private fun getFileDescriptor(uri: Uri) = application.contentResolver.openFileDescriptor(uri, "r")
+  private fun getFileDescriptor(uri: Uri) = appApplication.contentResolver.openFileDescriptor(uri, "r")
 
   private fun isCurrentPageBookmarked() =
       bookmarks.value?.any { it.page == currentPage.value?.index } == true

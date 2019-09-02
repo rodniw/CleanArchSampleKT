@@ -12,7 +12,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.bumptech.glide.Glide
 import dev.rodni.ru.cleanarchsamplekt.R
-import dev.rodni.ru.cleanarchsamplekt.framework.MajesticViewModelFactory
+import dev.rodni.ru.cleanarchsamplekt.framework.ReaderAppViewModelFactory
 import dev.rodni.ru.cleanarchsamplekt.presentation.IntentUtil.createOpenIntent
 import dev.rodni.ru.cleanarchsamplekt.presentation.MainActivityDelegate
 import kotlinx.android.synthetic.main.fragment_library.*
@@ -51,7 +51,7 @@ class LibraryFragment : Fragment() {
     }
     documentsRecyclerView.adapter = adapter
 
-    viewModel = ViewModelProviders.of(this, MajesticViewModelFactory)
+    viewModel = ViewModelProviders.of(this, ReaderAppViewModelFactory)
         .get(LibraryViewModel::class.java)
     viewModel.documents.observe(this, Observer { adapter.update(it) })
     viewModel.loadDocuments()
